@@ -1,4 +1,4 @@
-export default function Index() {
+export default function Fuga() {
   return (
     <p id="index-page">
       This is a demo for Remix.

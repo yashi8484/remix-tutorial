@@ -24,7 +24,7 @@ export const action = async ({
   })
 }
 
-export default function Contact() {
+const Hoge = () => {
   const { contact } = useLoaderData<typeof loader>();
 
   return (
@@ -101,3 +101,5 @@ const Favorite: FunctionComponent<{
     </fetcher.Form>
   )
 }
+
+export default Hoge;
